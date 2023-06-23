@@ -43,13 +43,13 @@ from
 	consumer_index;
 
 /* 	sample of data:
-	year 	cpi  home_cpi  	  renter	 	trasnportation_cpi	   food_cpi    healthcare_cpi
-	2016	1.3	 4.97076020	  4.76723510	-4.77743880			0.84682440	6.21833250
-	2017	2.1	 1.02135560	  3.72698130	5.82384790			7.75500120	6.85169120
-	2018	2.4	 -1.501225500 2.12675710	1.93191310			2.31492090	0.81168830
-	2019	1.8	 4.79004660  5.66004150		10.05019970			4.00985660	4.52898550
-	2020	1.3	 17.86880370 4.54264690		-8.52727620			6.28903720	-0.30810710
-	2021	4.7	 15.28582220 5.36040390		11.55098710			6.56534950	5.31195670
+	year 	cpi  	home_cpi  	  renter	 trasnportation_cpi	   	food_cpi    healthcare_cpi
+	2016	1.3	 4.97076020	4.76723510	-4.77743880			0.84682440	6.21833250
+	2017	2.1	 1.02135560	3.72698130	5.82384790			7.75500120	6.85169120
+	2018	2.4	 -1.501225500 	2.12675710	1.93191310			2.31492090	0.81168830
+	2019	1.8	 4.79004660  	5.66004150	10.05019970			4.00985660	4.52898550
+	2020	1.3	 17.86880370 	4.54264690	-8.52727620			6.28903720	-0.30810710
+	2021	4.7	 15.28582220 	5.36040390	11.55098710			6.56534950	5.31195670
     
     looking at the numbers inflation typically affects housing the most out of all these categories.
     looking at some of these years the difference between the cpi and the indivudal inflation in these four categories are 
@@ -90,7 +90,7 @@ from
 
 /* result
 avg_inflation	wages	home	rent 	trans	food	healthcare
-	2.67%		3.08%	4.80%	3.83%	2.68%	2.74%	4.62%
+2.67%		3.08%	4.80%	3.83%	2.68%	2.74%	4.62%
 
 
 1. housing price increses faster than the cpi and wages with this being americans number one expense means that many 
@@ -157,7 +157,7 @@ It is important to note that while high increases in home prices may benefit cer
 on the poor and contribute to wealth inequality. Understanding this, it is now crucial to analyze how wages are affected by inflation, as it directly influences the purchasing power and peoples financial well-being 
  */
  
- -- caculating the avarage cpi minus the avarage wage increase
+ -- calculating the average cpi minus the average wage increase
 with tmp as 
  (
  select 
