@@ -220,3 +220,7 @@ from money_supply as ms join money_supply as ms2 on ms.year=ms2.year + interval 
 2019-01-01|		14818|	714	|		3.9428
 2020-01-01|		17651|	2833 |		15.6442
 2021-01-01|		20526|	2875 |		15.8761
+
+#### money supply the exponetial function
+first, M2 money supply refers to a measure of money that includes physical currency (coins and banknotes) in circulation, 
+demand deposits (such as checking accounts), and certain types of savings deposits and money market securities.  it includes components that are easily convertible into cash or used for making payments. simply put its how much money is in circulation and we can see that it has seen tramendous growth in tandom with the increase in inflation. this explains why in 1984 median housing prices were 84,000 and today it is now 457,000.   one intresting insight is that 2020 and 2021 are responsible for 31.5% increase in change in the money supply between 1984 and now.
