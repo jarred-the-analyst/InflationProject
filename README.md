@@ -92,4 +92,36 @@ it is not increasing faster than wages making it less of a worry for the avarage
 #### 2. are their major distinctions between the four top categories and the cpi?
 out of the four categories housing and healthcare were the two catagories that were significantly higher than the cpi. transportation and food was higher than the cpi also but not by much. so, expense toward homeowners and renters typically goes up more than the cpi. 
 
+## housing inflation during the bulid up of 2008 finacial crisis
+```sql
+-- using two cte to have the data next to each other so that its side by side
+with y_96 as (
+select
+	years,
+    cpi, 
+	 home_owner as h_96_08,
+-- the column that their going to be joined on 
+     row_number() over () as y_order
+from 
+	consumer_index
+where years between 1995 and 2008
+),
+y_09 as 
+	(select
+	years,
+    cpi, 
+	home_owner as h_09_21,
+     row_number() over () as y_order
+from 
+	consumer_index
+where years between 2008 and 2021)
+select 
+	y_96.years, y_96.cpi,
+	round(((h_96_08/lag(h_96_08) over () )*100.0000) -100,4) as cpi_h_96,
+    
+    y_09.years, y_09.cpi,
+    round(((h_09_21/lag(h_09_21) over () )*100.0000) -100,4)as cpi_h_09
+from 
+	y_96  join y_09 on y_96.y_order=y_09.y_order;
+```
 
