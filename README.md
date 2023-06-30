@@ -85,11 +85,11 @@ from
 
 ## Exploring the Impact of Inflation on Americans: Housing, Wages, and Economic Disparities 
 
-#### 1.how is inflation effecting the majority of americans?
+#### 1. how is inflation effecting the majority of americans?
  housing price increses faster than the cpi and wages with this being americans number one expense means that many americans feels alot of inflationary pressure towards housing and rent. this can be said the same with health care which is another major expense. on the other hand even though trasportation and food are rising faster than the cpi
 it is not increasing faster than wages making it less of a worry for the avarage american.
 
-#### 2.are their major distinctions between the four top categories and the cpi?
+#### 2. are their major distinctions between the four top categories and the cpi?
 out of the four categories housing and healthcare were the two catagories that were significantly higher than the cpi.transportation and food was higher than the cpi also but not by much. so, expense toward homeowners and renters typically goes up more than the cpi. 
 
 
