@@ -25,5 +25,4 @@ To assess how inflation is impacting the majority of Americans, the first step i
     	lag(Healthcare) over () )/(lag(Healthcare) over ())*100.0000) , 'unknown') as healthcare_cpi
     from 
     	consumer_index;
-   
 ```
