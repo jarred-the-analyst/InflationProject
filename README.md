@@ -35,3 +35,7 @@ To assess how inflation is impacting the majority of Americans, the first step i
 |2019|1.8|4.79004660 | 5.66004150	|10.05019970|	4.00985660|	4.52898550 
 2020|1.3|	 17.86880370| 4.54264690|	-8.52727620	|6.28903720|	-0.30810710
 2021|4.7|15.28582220| 5.36040390	|11.55098710|6.56534950|5.31195670
+
+
+### what the numbers say
+looking at the numbers inflation typically affects housing the most out of all these categories.  looking at some of these years the difference between the cpi and the indivudal inflation in these four categories are sometimes vastly different. to address the first two questions though,I will need to calculate the average inflation rate for each of the four categories. This will enable me to assess the overall inflation effects on Americans for these specific expenditure categories and identify any notable distinctions between them and the CPI.
