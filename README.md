@@ -39,3 +39,35 @@ To assess how inflation is impacting the majority of Americans, the first step i
 
 ### what the numbers say
 looking at the numbers inflation typically affects housing the most out of all these categories.  looking at some of these years the difference between the cpi and the indivudal inflation in these four categories are sometimes vastly different. to address the first two questions though,I will need to calculate the average inflation rate for each of the four categories. This will enable me to assess the overall inflation effects on Americans for these specific expenditure categories and identify any notable distinctions between them and the CPI.
+```sql
+-- measuring the avarage difference between the overall cpi and the four major categories inflation rate.
+-- using the formula:  inflation_rate = ((current_price/ previous_price) *100) - 100 to caculate the inflation 
+with four_cat_cpi as (
+select years,
+	cpi,
+	((home_owner/lag(home_owner) over () )*100.0000) -100 as home_cpi,
+     
+	((renter/lag(renter) over () )*100.0000) -100 as renter_cpi,
+	
+    ((Transportation/lag(Transportation) over () )*100.0000) -100 as Transportation_cpi,	
+	
+    ((Food/lag(Food) over () )*100.0000) -100 as Food_cpi,
+    
+    ((Wages_salaries/lag(Wages_salaries) over () )*100.0000) -100 as Wages_salaries_cpi,
+	
+    ((Healthcare/lag(Healthcare) over () )*100.0000) -100 as healthcare_cpi
+from 
+	consumer_index)
+
+select 
+-- finding the avg cpi and avg of the four different categories
+	concat(round(avg(cpi),2),'%') avg_inflation,
+    concat(round(avg(Wages_salaries_cpi),2),'%') Wages_salaries_cpi,
+	concat(round(avg(home_cpi),2),'%') home_cpi,
+    concat(round(avg(renter_cpi),2),'%')renter_cpi,
+    concat(round(avg(Transportation_cpi),2 ),'%')Transportation_cpi,
+   concat(round(avg(Food_cpi),2),'%') Food_cpi,
+    concat(round(avg(healthcare_cpi),2 ),'%')healthcare_cpi
+from
+	four_cat_cpi;
+```
