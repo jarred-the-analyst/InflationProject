@@ -174,12 +174,70 @@ from tmp ;
 /* result= .4%
 
 4.wages only have increased .4% more than inflation. this has been making it increasingly more harder for the lower class to keep up with their
-housing expenses and healthcare cost which increase far above the inflation rate.  
+housing expenses and healthcare cost which increase far above the inflation rate and wages.  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/* now we are going to see why inflation is rapidly increasing.  */
+-- analyzing the m2 money supply findig the rate of change and the distribution of the change.
+select
+	ms.year,
+    ms.m2,
+    ms.m2-ms2.m2 rate_change,
+    100*((ms.m2-ms2.m2)/(sum(ms.m2-ms2.m2) over ())) as precentage_o_ratechange
+from money_supply as ms join money_supply as ms2 on ms.year=ms2.year + interval 1 year
+ /*
+ year			m2		rate_change	percentage_change
+1986-01-01		2613	196			1.0823
+1987-01-01		2782	169			0.9332
+1988-01-01		2931	149			0.8228
+1989-01-01		3054	123			0.6792
+1990-01-01		3222	168			0.9277
+1991-01-01		3342	120			0.6627
+1992-01-01		3405	63			0.3479
+1993-01-01		3440	35			0.1933
+1994-01-01		3483	43			0.2375
+1995-01-01		3556	73			0.4031
+1996-01-01		3729	173			0.9553
+1997-01-01		3926	197			1.0879
+1998-01-01		4207	281			1.5517
+1999-01-01		4517	310			1.7119
+2000-01-01		4790	273			1.5075
+2001-01-01		5204	414			2.2862
+2002-01-01		5591	387			2.1371
+2003-01-01		5981	390			2.1536
+2004-01-01		6267	286			1.5793
+2005-01-01		6535	268			1.4799
+2006-01-01		6877	342			1.8886
+2007-01-01		7298	421			2.3248
+2008-01-01		7791	493			2.7224
+2009-01-01		8416	625			3.4513
+2010-01-01		8626	210			1.1596
+2011-01-01		9256	630			3.4789
+2012-01-01		10050	794			4.3846
+2013-01-01		10727	677			3.7385
+2014-01-01		11389	662			3.6556
+2015-01-01		12045	656			3.6225
+2016-01-01		12860	815			4.5005
+2017-01-01		13591	731			4.0367
+2018-01-01		14104	513			2.8328
+2019-01-01		14818	714			3.9428
+2020-01-01		17651	2833 			15.6442
+2021-01-01		20526	2875 			15.8761
+ 
+ 
+ first, M2 money supply refers to a measure of money that includes physical currency (coins and banknotes) in circulation, 
+demand deposits (such as checking accounts), and certain types of savings deposits and money market securities. 
+ it includes components that are easily convertible into cash or used for making payments. simply put its how much money is in circulation 
+ and we can see that it has seen tramendous growth in tandom with the increase in inflation. 
+ this explains why in 1984 median housing prices were 84,000 and today it is now 457,000.  
+ one intresting insight is that 2020 and 2021 are responsible for 31.5% increase in change in the money supply between 1984 and now.
+ */
 
 ---------------------------------------------------------conclusion-------------------------------------------------------------------------------------------
 
-In conclusion, housing stands as the primary expenditure for Americans, and its costs are escalating at a significantly faster pace than 
-both inflation and wages. To address this issue, the Federal Reserve should implement less inflationary monetary policies, such as reducing 
+/*In conclusion, housing stands as the primary expenditure for Americans, and its costs are escalating at a significantly faster pace than 
+both inflation and wages. we discoverd the rapid increase in the money supply as the causal factor for this inflation, its true that this is a multi-varied
+issue and m2 is not the sole reason for the rapid inflation. but it remains as a major factor for the increase in prices.
+To address this issue, the Federal Reserve should implement less inflationary monetary policies, such as reducing m2 and
 quantitative easing (QE) measures. While QE was necessary during the unpredictability of the COVID-19 pandemic, the excessive injection of money 
 into the economy led to a substantial increase in median home prices by 17.8% in 2020 and 15.2% in 2021.
 the problem is worsened by wages staying the same while the costs of three out of the top five expenses are increasing faster. This makes it harder 
@@ -195,7 +253,7 @@ people to find jobs that have great healthcare benfits so that, that expense wou
 Furthermore, I recommend individuals consider options such as having roommates or living with relatives instead of prematurely 
 moving out on their own. Sharing living expenses can help mitigate the financial strain caused by soaring housing costs. 
 By considering this, individuals can better manage their budget and navigate the
- challenges posed by rising housing and healthcare expenses relative to wages.
+ challenges posed by rising housing and healthcare expenses relative to wages.*/ 
 */
 
 
