@@ -141,3 +141,10 @@ from
 2007|	2.9	|-6.3735|2020	|1.3|						17.8688
 2008|	3.8	|-6.6351|2021	|4.7|						15.2858
 
+### 3. how did inflation effect housing during the build up to the 2008 finacial crisis? what insight can we draw?
+Upon examining the data for the first 12 years (1996-2008), it is evident that the inflation rate for homes experienced a significant increase. The peak occurred in 2003, 
+with a 13.3% inflation rate for homes, while the peak CPI during that period was 3.8% in 2008. This example highlights the discrepancy between CPI numbers and the actual inflation 
+experienced by Americans. In 2003, while the CPI was 2.3%, housing prices rose by 13.2%.  this discranpenciy ussaly manifest with the FED pointing to an avarage
+cpi number for the year while americans feeling the wrath of their number one expenditure housing increase by more than the cpi and wages.
+It is important to note that while high increases in home prices may benefit certain individuals, such as the wealthy or those in the real estate business, they often have a negative impact 
+on the poor and contribute to wealth inequality. Understanding this, it is now crucial to analyze how wages are affected by inflation, as it directly influences the purchasing power and peoples financial well-being 
