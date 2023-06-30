@@ -170,3 +170,14 @@ from tmp ;
 | 2.67%|3.08%| .4%
 #### 4. how is wages effected by inflation? is it keeping up with inflation?
 wages only have increased .4% more than inflation. this has been making it increasingly more harder for the lower class to keep up with their housing expenses and healthcare cost which increase far above the inflation rate.
+
+##  correlation between m2 and prices
+```sql
+-- analyzing the m2 money supply findig the rate of change and the distribution of the change.
+select
+	ms.year,
+    ms.m2,
+    ms.m2-ms2.m2 rate_change,
+    100*((ms.m2-ms2.m2)/(sum(ms.m2-ms2.m2) over ())) as precentage_o_ratechange
+from money_supply as ms join money_supply as ms2 on ms.year=ms2.year + interval 1 year
+```
