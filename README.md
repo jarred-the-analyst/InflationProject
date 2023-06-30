@@ -96,6 +96,8 @@ it is not increasing faster than wages making it less of a worry for the avarage
 #### 2. are their major distinctions between the four top categories and the cpi?
 out of the four categories housing and healthcare were the two catagories that were significantly higher than the cpi. transportation and food was higher than the cpi also but not by much. so, expense toward homeowners and renters typically goes up more than the cpi. 
 
+![enter image description here](https://www.rollingstone.com/wp-content/uploads/2018/09/2008-crash-opener.jpg)
+
 ## housing inflation during the bulid up of 2008 finacial crisis
 ```sql
 -- using two cte to have the data next to each other so that its side by side
