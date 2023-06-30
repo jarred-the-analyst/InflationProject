@@ -71,3 +71,8 @@ select
 from
 	four_cat_cpi;
 ```
+### average inflation across categories
+| cpi|wages|home|rent|trans|food|healthcare
+|--|--|--|--|--|--|--|
+| 2.67%|3.08%|4.80%|3.83%|2.68%|2.74%|4.62%
+
