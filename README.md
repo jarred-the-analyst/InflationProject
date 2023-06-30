@@ -154,8 +154,8 @@ experienced by Americans. In 2003, while the CPI was 2.3%, housing prices rose b
 cpi number for the year while americans feeling the wrath of their number one expenditure housing increase by more than the cpi and wages.
 It is important to note that while high increases in home prices may benefit certain individuals, such as the wealthy or those in the real estate business, they often have a negative impact 
 on the poor and contribute to wealth inequality. Understanding this, it is now crucial to analyze how wages are affected by inflation, as it directly influences the purchasing power and peoples financial well-being 
+![enter image description here](https://www.whitesidesca.com/wp-content/uploads/2016/10/shutterstock_279344075-wages-files-e1478791568392.jpg)
 
-![enter image description here](http://www.pngall.com/wp-content/uploads/2017/01/Growth-Chart-Free-Download-PNG.png)
 
 ## wages and inflation
 ```sql
@@ -180,7 +180,7 @@ from tmp ;
 #### 4. how is wages effected by inflation? is it keeping up with inflation?
 wages only have increased .4% more than inflation. this has been making it increasingly more harder for the lower class to keep up with their housing expenses and healthcare cost which increase far above the inflation rate.
 
-![enter image description here](https://www.whitesidesca.com/wp-content/uploads/2016/10/shutterstock_279344075-wages-files-e1478791568392.jpg)
+![enter image description here](http://www.pngall.com/wp-content/uploads/2017/01/Growth-Chart-Free-Download-PNG.png)
 
 ##  correlation between m2 and prices
 ```sql
