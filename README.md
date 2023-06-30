@@ -8,9 +8,9 @@ the CPI and the college inflation rate. Additionally, the CPI attempts to adjust
 Therefore, incorporating different types of measurements can offer better insights into inflation dynamics.
  ## questions
 
- **1.** how is inflation effecting the majority of americans?
- **2.**  are their major distinctions between the four top categories and the cpi?
- **3.** how did inflation effect housing during the build up to the 2008 finacial crisis? what insight can we draw?
+ **1.** how is inflation effecting the majority of americans?<br>
+ **2.**  are their major distinctions between the four top categories and the cpi?<br>
+ **3.** how did inflation effect housing during the build up to the 2008 finacial crisis? what insight can we draw?<br>
  **4.** how is wages effected by inflation? is it keeping up with inflation?
 
 ###  1. how is inflation effecting the majority of americans? 
