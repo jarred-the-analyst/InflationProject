@@ -85,6 +85,8 @@ from
 |--|--|--|--|--|--|--|
 | 2.67%|3.08%|4.80%|3.83%|2.68%|2.74%|4.62%
 
+![enter image description here](https://wellness.nifs.org/hs-fs/hub/38254/file-13925606-jpg/images/436_3092585.jpg?width=308&height=205&name=436_3092585.jpg)
+
 ## Exploring the Impact of Inflation on Americans: Housing, Wages, and Economic Disparities 
 
 #### 1. how is inflation effecting the majority of americans?
