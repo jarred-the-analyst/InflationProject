@@ -164,3 +164,9 @@ from
 select concat(round(avg(w)-avg(cpi),2) ,'%') diff_cpi_wage
 from tmp ;
 ```
+### average cpi vs  average wage inflation 
+| cpi | wage | diff
+|--|--|--|
+| 2.67%|3.08%| .4%
+#### 4. how is wages effected by inflation? is it keeping up with inflation?
+wages only have increased .4% more than inflation. this has been making it increasingly more harder for the lower class to keep up with their housing expenses and healthcare cost which increase far above the inflation rate.
