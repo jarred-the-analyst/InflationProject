@@ -26,6 +26,7 @@ To assess how inflation is impacting the majority of Americans, the first step i
     from 
     	consumer_index;
 ```
+### sample of the top four expenditures inflation rate
 | year | cpi | home_cpi| renter|trasnportation_cpi|food_cpi|healthcare_cpi  	  
 |--|--|--| --|--|--|--|    		
 |2016 |1.3  |4.97076020	|  4.76723510|-4.77743880|	0.84682440| 6.21833250
