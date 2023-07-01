@@ -46,8 +46,11 @@ To assess how inflation is impacting aspects of the economy, the first step is t
 2021|4.7|15.28582220| 5.36040390	|11.55098710|6.56534950|5.31195670
 
 
-### what the numbers say
-looking at the numbers inflation typically affects housing the most out of all these categories.  looking at some of these years the difference between the cpi and the individual inflation in these four categories are sometimes vastly different. to address the first two questions though, I will need to calculate the average inflation rate for each of the four categories. This will enable me to assess the overall inflation effects on Americans for these specific expenditure categories and identify any notable distinctions between them and the CPI.
+#### 1. what is the year-over-year change in inflation between the top four categories?
+Housing prices are increasing at a faster rate than the Consumer Price Index (CPI), and considering that housing is the primary expense for many Americans, it puts significant inflationary pressure on housing and rent costs. This can also be observed in healthcare, which is another major expense. However, transportation and food costs, although rising faster than the CPI, are not increasing at a rate higher than wages, making them less of a concern for the average American.
+looking at the numbers inflation typically affects housing the most out of all these categories.  looking at some of these years the difference between the cpi and the individual inflation in these four categories are sometimes vastly different. to address the next  question, I will need to calculate the average inflation rate for each of the four categories. This will enable me to assess the overall inflation effects on Americans for these specific expenditure categories and identify any notable distinctions between them and the CPI.
+
+
 ```sql
 -- measuring the average difference between the overall cpi and the four major categories inflation rate.
 -- using the formula:  inflation_rate = ((current_price/ previous_price) *100) - 100 to calculate the inflation 
@@ -88,9 +91,6 @@ from
 ![enter image description here](https://wellness.nifs.org/hs-fs/hub/38254/file-13925606-jpg/images/436_3092585.jpg?width=308&height=205&name=436_3092585.jpg)
 
 ## Exploring the Impact of Inflation on Americans: Housing, Wages, and Economic Disparities 
-
-#### 1. what is the year-over-year change in inflation between the top four categories?
-Housing prices are increasing at a faster rate than the Consumer Price Index (CPI), and considering that housing is the primary expense for many Americans, it puts significant inflationary pressure on housing and rent costs. This can also be observed in healthcare, which is another major expense. However, transportation and food costs, although rising faster than the CPI, are not increasing at a rate higher than wages, making them less of a concern for the average American.
 
 #### 2. Is there a significant disparity between the Consumer Price Index (CPI) and other categories inflation rate such as home prices, health prices, and wages?
 Among the four categories, housing and healthcare have inflation rates that are significantly higher than the CPI. Transportation and food costs also surpass the CPI, but the difference is not as significant. Therefore, expenses related to homeownership and renting tend to increase more rapidly compared to the CPI. 
