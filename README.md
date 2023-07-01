@@ -157,7 +157,7 @@ It is important to note that while high increases in home prices may benefit cer
 
 ## wages and inflation
 ```sql
- -- caculating the avarage cpi minus the avarage wage increase
+ -- calculating the average cpi minus the average wage increase
 with tmp as 
  (
  select 
@@ -175,14 +175,14 @@ from tmp ;
 | cpi | wage | diff
 |--|--|--|
 | 2.67%|3.08%| .4%
-#### 4. how is wages effected by inflation? is it keeping up with inflation?
+#### 4. how Is wages affected by inflation? Is it keeping up with inflation?
 wages only have increased .4% more than inflation. this has been making it increasingly more harder for the lower class to keep up with their housing expenses and healthcare cost which increase far above the inflation rate.
 
 ![enter image description here](http://www.pngall.com/wp-content/uploads/2017/01/Growth-Chart-Free-Download-PNG.png)
 
 ##  correlation between m2 and prices
 ```sql
--- analyzing the m2 money supply findig the rate of change and the distribution of the change.
+-- analyzing the m2 money supply finding the rate of change and the distribution of the change.
 select
 	ms.year,
     ms.m2,
@@ -190,7 +190,7 @@ select
     100*((ms.m2-ms2.m2)/(sum(ms.m2-ms2.m2) over ())) as precentage_o_ratechange
 from money_supply as ms join money_supply as ms2 on ms.year=ms2.year + interval 1 year
 ```
-### Exponetial increase of the money supply
+### Exponential increase of the money supply
  year|m2|rate_change|percentage_change
 |--|--|--|--|
 1986-01-01|		2613|	196|			1.0823
@@ -230,9 +230,9 @@ from money_supply as ms join money_supply as ms2 on ms.year=ms2.year + interval 
 2020-01-01|		17651|	2833 |		15.6442
 2021-01-01|		20526|	2875 |		15.8761
 
-#### money supply the exponetial function
+#### money supply the exponential function
 first, M2 money supply refers to a measure of money that includes physical currency (coins and banknotes) in circulation, 
-demand deposits (such as checking accounts), and certain types of savings deposits and money market securities.  it includes components that are easily convertible into cash or used for making payments. simply put its how much money is in circulation and we can see that it has seen tramendous growth in tandom with the increase in inflation. this explains why in 1984 median housing prices were 84,000 and today it is now 457,000.   one intresting insight is that 2020 and 2021 are responsible for 31.5% increase in change in the money supply between 1984 and now.
+demand deposits (such as checking accounts), and certain types of savings deposits and money market securities.  it includes components that are easily convertible into cash or used for making payments. simply put it's how much money is in circulation and we can see that it has seen tremendous growth in tandem with the increase in inflation. this explains why in 1984 median housing prices were 84,000 and today it is now 457,000. One interesting insight is that 2020 and 2021 are responsible for 31.5% increase in change in the money supply between 1984 and now.
 
 ![enter image description here](https://www.varchev.com/wp-content/uploads/2015/10/FED.jpg)
 
@@ -240,7 +240,7 @@ demand deposits (such as checking accounts), and certain types of savings deposi
 In conclusion, housing stands as the primary expenditure for Americans, and its costs are escalating at a significantly faster pace than 
 both inflation and wages. To address this issue, the Federal Reserve should implement less inflationary monetary policies, such as reducing 
 quantitative easing (QE) measures. While QE was necessary during the unpredictability of the COVID-19 pandemic, the excessive injection of money 
-into the economy led to a substantial increase in median home prices by 17.8% in 2020 and 15.2% in 2021.the problem is worsened by wages staying the same while the costs of three out of the top five expenses are increasing faster. This makes it harder for people who are poor or in the middle class. To tackle this issue, one suggestion is for the government to provide subsidies to companies that pay their employees higher wages. This would encourage companies to pay better wages and help improve the financial situation of workers. In general, inflation is a big concern for most Americans and needs the full attention of both the Federal Reserve and the government to keep it under control. It's important to take necessary actions to make housing more affordable, address the lack of wage growth, and implement policies that promote economic stability and fairness.<br>
+into the economy led to a substantial increase in median home prices by 17.8% in 2020 and 15.2% in 2021. The problem is worsened by wages staying the same while the costs of three out of the top five expenses are increasing faster. This makes it harder for people who are poor or in the middle class. To tackle this issue, one suggestion is for the government to provide subsidies to companies that pay their employees higher wages. This would encourage companies to pay better wages and help improve the financial situation of workers. In general, inflation is a big concern for most Americans and needs the full attention of both the Federal Reserve and the government to keep it under control. It's important to take necessary actions to make housing more affordable, address the lack of wage growth, and implement policies that promote economic stability and fairness.<br>
 
-additonaly, consumers can now have better understanting of what parts of their budget they need to plan for the long run.knowing on avarage housing prices and healthcare have been signifcantly incearsing faster than wages I would advisepeople to find jobs that have great healthcare benfits so that, that expense would be less of a burden. alsoFurthermore, I recommend individuals consider options such as having roommates or living with relatives instead of prematurely moving out on their own. Sharing living expenses can help mitigate the financial strain caused by soaring housing costs. 
+Additionally, consumers can now have a better understanding of what parts of their budget they need to plan for the long run. knowing on average housing prices and healthcare have been significantly increasing faster than wages I would advise people to find jobs that have great healthcare benefits so that, that expense would be less of a burden. also furthermore, I recommend individuals consider options such as having roommates or living with relatives instead of prematurely moving out on their own. Sharing living expenses can help mitigate the financial strain caused by soaring housing costs. 
 By considering this, individuals can better manage their budget and navigate the challenges posed by rising housing and healthcare expenses relative to wages.
