@@ -10,8 +10,8 @@ Therefore, incorporating different types of measurements can offer better insigh
 ![enter image description here](https://www.midasgoldgroup.com/wp-content/uploads/2020/06/fed-printing-money.jpg)
  ## questions
 
- **1.** which categories have the highest inflation rate?<br>
- **2.** are there large gaps between the cpi and the other categories?<br>
+ **1.** what is the year-over-year change in inflation between the top four categories?<br>
+ **2.** Is there a significant disparity between the Consumer Price Index (CPI) and other categories inflation rate such as home prices, health prices, and wages?<br>
  **3.** How did inflation affect housing during the build-up to the 2008 financial crisis?<br>
  **4.** How are wages affected by inflation? Is it keeping up with inflation?
 
@@ -89,10 +89,10 @@ from
 
 ## Exploring the Impact of Inflation on Americans: Housing, Wages, and Economic Disparities 
 
-#### 1. Which categories have the highest inflation rate?
+#### 1. what is the year-over-year change in inflation between the top four categories?
 Housing prices are increasing at a faster rate than the Consumer Price Index (CPI), and considering that housing is the primary expense for many Americans, it puts significant inflationary pressure on housing and rent costs. This can also be observed in healthcare, which is another major expense. However, transportation and food costs, although rising faster than the CPI, are not increasing at a rate higher than wages, making them less of a concern for the average American.
 
-#### 2. Are there large gaps between the CPI and the other categories?
+#### 2. Is there a significant disparity between the Consumer Price Index (CPI) and other categories inflation rate such as home prices, health prices, and wages?
 Among the four categories, housing and healthcare have inflation rates that are significantly higher than the CPI. Transportation and food costs also surpass the CPI, but the difference is not as significant. Therefore, expenses related to homeownership and renting tend to increase more rapidly compared to the CPI. 
 
 ![enter image description here](https://www.rollingstone.com/wp-content/uploads/2018/09/2008-crash-opener.jpg)
