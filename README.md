@@ -180,7 +180,6 @@ from tmp ;
 #### 4. how Is wages affected by inflation? Is it keeping up with inflation?
 wages only have increased .4% more than inflation. this has been making it increasingly more harder for the lower class to keep up with their housing expenses and healthcare cost which increase far above the inflation rate.
 
-![enter image description here](http://www.pngall.com/wp-content/uploads/2017/01/Growth-Chart-Free-Download-PNG.png)
 
 ##  correlation between m2 and prices
 ```sql
