@@ -36,7 +36,7 @@ To assess how inflation is impacting aspects of the economy, the first step is t
     	consumer_index;
 ```
 
-<div class='tableauPlaceholder' id='viz1689255440362' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;in&#47;inflationproject&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
+<div class='tableauPlaceholder' id='viz1689262480949' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;in&#47;inflationproject&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
 
 ### sample of the top four expenditures inflation rate
 | year | cpi | home_cpi| renter|trasnportation_cpi|food_cpi|healthcare_cpi  	  
