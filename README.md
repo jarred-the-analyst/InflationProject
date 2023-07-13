@@ -132,6 +132,7 @@ from
 ```
 ### what the numbers show
 <div class='tableauPlaceholder' id='viz1689269235218' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2008_16892687727490&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
+	
 | year|cpi from 96_08|housing prices_96_08|year|cpi from 09_21|housing prices_09_21
 |---|---|---|---|---|---|
 1996|2.9|2.571|2009|-0.3|-6.8266|
