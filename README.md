@@ -194,6 +194,7 @@ from money_supply as ms join money_supply as ms2 on ms.year=ms2.year + interval 
 ```
 ### Exponential increase of the money supply
 <div class='tableauPlaceholder' id='viz1689279757731' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;m2&#47;m2supply&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
+	
  year|m2|rate_change|percentage_change
 |--|--|--|--|
 1986-01-01|		2613|	196|			1.0823
