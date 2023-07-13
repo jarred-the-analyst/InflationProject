@@ -97,7 +97,6 @@ from
 #### 2. Is there a significant disparity between the Consumer Price Index (CPI) and other categories inflation rate such as home prices, health prices, and wages?
 Among the four categories, housing and healthcare have inflation rates that are significantly higher than the CPI. Transportation and food costs also surpass the CPI, but the difference is not as significant. Therefore, expenses related to homeownership and renting tend to increase more rapidly compared to the CPI. 
 
-![enter image description here](https://www.rollingstone.com/wp-content/uploads/2018/09/2008-crash-opener.jpg)
 
 ## housing inflation during the build up of 2008 financial crisis
 ```sql
