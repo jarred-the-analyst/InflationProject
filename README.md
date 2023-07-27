@@ -131,7 +131,7 @@ from
 	y_96  join y_09 on y_96.y_order=y_09.y_order;
 ```
 ### what the numbers show
-<div class='tableauPlaceholder' id='viz1690461472143' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;n_&#47;n_16904614355990&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>      
+<div class='tableauPlaceholder' id='viz1690461929629' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2008_16892687727490&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>   
 	
 | year|cpi from 96_08|housing prices_96_08|year|cpi from 09_21|housing prices_09_21
 |---|---|---|---|---|---|
